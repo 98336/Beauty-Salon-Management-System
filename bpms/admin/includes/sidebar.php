@@ -1,4 +1,37 @@
-  <div class=" sidebar" role="navigation">
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Other meta tags and stylesheets -->
+  
+  <style>
+    /* Add this CSS for your sidebar */
+    .sidebar {
+      width: 250px;
+      max-width: 100%;
+      height: 100%;
+      overflow-y: auto;
+      background-color: #333; /* Sidebar background color */
+      color: #fff; /* Text color */
+    }
+
+    .sidebar-container {
+      padding: 20px;
+    }
+
+    .nav {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .nav > li {
+      /* Style your list items here */
+    }
+  </style>
+</head>
+<body>
+ 
+<div class=" sidebar" role="navigation">
             <div class="navbar-collapse">
         <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
           <ul class="nav" id="side-menu">
@@ -76,6 +109,14 @@
               <a href="invoices.php" class="chart-nav"><i class="fa fa-file-text-o nav_icon"></i>Invoices</a>
             </li>
             <li>
+            <a href="../chat/admin/index.php" class="chart-nav"><i class="fa fa-check-square-o nav_icon"></i>Chatbot</a>
+            </li>
+
+            <li>
+            <a href="../blog/admin/index.php" class="chart-nav"><i class="fa fa-check-square-o nav_icon"></i>Blogs</a>
+            </li>
+            <li>
+              
               <a href="search-appointment.php" class="chart-nav"><i class="fa fa-search nav_icon"></i>Search Appointment</a>
             </li>
             <li>
@@ -89,3 +130,12 @@
         </nav>
       </div>
     </div>
+
+
+
+    
+</body>
+</html>
+  
+  
+  

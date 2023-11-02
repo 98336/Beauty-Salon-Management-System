@@ -50,7 +50,7 @@ while ($row=mysqli_fetch_array($ret)) {
   <section class="w3l-footer-29-main w3l-copyright">
     <div class="container">
       <div class="row bottom-copies">
-        <p class="col-lg-8 copy-footer-29">© 2022  Beauty Parlour Management System </p>
+        <p class="col-lg-8 copy-footer-29">© 2023  Beauty Parlour Management System </p>
   
         <div class="col-lg-4 main-social-footer-29">
           <a href="#facebook" class="facebook"><span class="fa fa-facebook"></span></a>
