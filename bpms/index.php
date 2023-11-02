@@ -9,6 +9,29 @@ include('includes/dbconnection.php');
   <head>
    
     <title>Beauty Parlour Management System | Home Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tile.css">
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
@@ -25,75 +48,49 @@ include('includes/dbconnection.php');
 <script src="assets/js/bootstrap.min.js"></script>
 <!-- //bootstrap working-->
 <!-- disable body scroll which navbar is in active -->
-<script>
-$(function () {
-  $('.navbar-toggler').click(function () {
-    $('body').toggleClass('noscroll');
-  })
-});
-</script>
-<!-- disable body scroll which navbar is in active -->
+<section id="home-section" class="hero" style="background-image: url(images/bg.jpg);" data-stellar-background-ratio="0.5">
+		  <div class="home-slider owl-carousel">
+	      <div class="slider-item js-fullheight">
+	      	<div class="overlay"></div>
+	        <div class="container-fluid p-0">
+	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+	          	<img class="one-third align-self-end order-md-last img-fluid" src="images/bg_1.png" alt="">
+		          <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+		          	<div class="text mt-5">
+		          		<span class="subheading">Beauty Salon</span>
+			            <h1 class="mb-4">Get Pretty Look</h1>
+			            <p class="mb-4">We pride ourselves on our high quality work and attention to detail. The products we use are of top quality branded products.</p>
+			            
+			           
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
 
-<div class="w3l-hero-headers-9">
-  <div class="css-slider">
-    <input id="slide-1" type="radio" name="slides" checked>
-    <section class="slide slide-one">
-      <div class="container">
-        <div class="banner-text">
-          <h4>Creative Styling</h4>
-          <h3>beauty salon<br>
-            fashion for woman</h3>
-
-            <a href="book-appointment.php" class="btn logo-button top-margin">Get An Appointment</a>
-        </div>
-      </div>
-      
+	      <div class="slider-item js-fullheight">
+	      	<div class="overlay"></div>
+	        <div class="container-fluid p-0">
+	          <div class="row d-flex no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
+	          	<img class="one-third align-self-end order-md-last img-fluid" src="images/bg_2.png" alt="">
+		          <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+		          	<div class="text mt-5">
+		          		<span class="subheading">Your Glam Lab</span>
+			            <h1 class="mb-4">Beauty Salon</h1>
+			            <p class="mb-4">We show your skin, hair, and body the care and attention they deserve.</p>
+			            
+			           
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
+	    </div>
     </section>
-    <input id="slide-2" type="radio" name="slides">
-    <section class="slide slide-two">
-      <div class="container">
-        <div class="banner-text">
-          <h4>Creative Styling</h4>
-          <h3>beauty salon<br>
-            fashion for woman</h3>
-          <a href="book-appointment.php" class="btn logo-button top-margin">Get An Appointment</a>
-        </div>
-      </div>
-      <!-- <nav>
-        <label for="slide-2" class="prev">&#10094;</label>
-        <label for="slide-1" class="next">&#10095;</label>
-      </nav> -->
-    </section>
-    <header>
-      <label for="slide-1" id="slide-1"></label>
-      <label for="slide-2" id="slide-2"></label>
-    </header>
-  </div>
-</div> 
-<section class="w3l-call-to-action_9">
-    <div class="call-w3 ">
-        <div class="container">
-            <div class="grids">
-                    <div class="grids-content row">
 
-                        <div class="column col-lg-4 col-md-6 color-2 ">
-                            <div>
-                            <h4 class=" ">Our Salon is Most Popular</h4>
-                            <p class="para ">Eline Hair and Beauty Salon Offers - Beauty Services</p>
-                            <a href="about.php" class="action-button btn mt-md-4 mt-3">Read more</a>
-                        </div>
-                    </div>
-                        <div class="column col-lg-4 col-md-6 col-sm-6 back-image  ">
-                            <img src="assets/images/5.jpg" alt="product" class="img-responsive ">
-                        </div>
-                        <div class="column col-lg-4 col-md-6 col-sm-6 back-image2 ">
-                            <img src="assets/images/6.jpg" alt="product" class="img-responsive ">
-                          </div>
-                    </div>
-                </div>
-        </div>
-    </div>
-</section>
+
+<br>
+
 <section class="w3l-teams-15">
 	<div class="team-single-main ">
 		<div class="container">
@@ -108,6 +105,63 @@ $(function () {
 		</div>
 	</div>
 </section>
+<br>
+<section class="ftco-section ftco-no-pt ftco-booking">
+    	<div class="container-fluid px-0">
+    		<div class="row no-gutters d-md-flex justify-content-end">
+    			<div class="one-forth d-flex align-items-end">
+    				<div class="text">
+    					<div class="overlay"></div>
+    					<div class="appointment-wrap">
+							
+                <h3 class="mb-2">Explore Our New Services</h3>
+                <p class="para ">We have added set of new services for our customers. You can discover below.</p>
+                <div class="tiles">
+        <a href="./shop/shop.php" class="tile">Beauty Store</a>
+        <a href="./chat/" class="tile">ChatBot</a>
+        <a href="./blog/index.php" class="tile">Read Blogs</a>
+        <a href="./review" class="tile">Check Reviews</a>
+        
+        
+    </div>
+		    				<form action="#" method="post" class="appointment-form">
+			            <div class="row">
+			              <div class="col-sm-12">
+			                
+			              </div>
+			              <div class="col-sm-12">
+			                
+			              </div>
+				            <div class="col-sm-12">
+			                <div class="form-group">
+					              <div class="select-wrap">
+		                      
+		                    
+		                    </div>
+					            </div>
+			              </div>
+			              <div class="col-sm-12">
+			                  
+			              </div>
+			              <div class="col-sm-12">
+			                
+			              </div>
+			              <div class="col-sm-12">
+			                
+			              </div>
+				          </div>
+			          </form>
+		          </div>
+						</div>
+    			</div>
+					<div class="one-third">
+						<div class="img" style="background-image: url(images/bg-1.jpg);">
+						</div>
+					</div>
+    		</div>
+    	</div>
+    </section>
+    <br>
 <section class="w3l-specification-6">
     <div class="specification-layout ">
         <div class="container">
@@ -166,6 +220,28 @@ $(function () {
 	}
 </script>
 <!-- /move top -->
+<!-- loader -->
+<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-migrate-3.0.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/jquery.animateNumber.min.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
+<script src="js/jquery.timepicker.min.js"></script>
+<script src="js/scrollax.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+<script src="js/google-map.js"></script>
+<script src="js/main.js"></script>
+  
 </body>
 
 </html>

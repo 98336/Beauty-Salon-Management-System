@@ -5,9 +5,6 @@ include('includes/dbconnection.php');
 if (strlen($_SESSION['bpmsuid']==0)) {
   header('location:logout.php');
   } else{
-
-
-
   ?>
 <!doctype html>
 <html lang="en">
